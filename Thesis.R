@@ -329,9 +329,7 @@ c$RowName = NULL
 #rem colswhen there are more than 50% NA values in a column####
 Threshold = 0.5  # Set threshold as 50%
 new_df = c[, colMeans(is.na(c)) <= threshold]
-
 cols_to_keep = colMeans(is.na(c)) <= threshold
-
 # Create separate data frames
 df_kept = c[, cols_to_keep]  
 df_removed = c[, !cols_to_keep] 
