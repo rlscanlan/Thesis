@@ -1,0 +1,1 @@
+All of these scripts were used in the Thesis titled 'Using systems biology to explore temporal changes in human fibroblast cellular senescence' by Rebekah-Louise Anne Scanlan as part of her PhD at Newcastle University.
